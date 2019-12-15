@@ -131,3 +131,62 @@ a,button{
 .side p{
     font-family: 'Didact Gothic', sans-serif;
 }
+.footer{
+    color:white;
+    background: linear-gradient(#d33a0c9d, #c77c0cb4);
+    height: 40vh;
+}	
+.fcontent{
+    display: flex;    
+}
+.fsection{
+    padding: 5px 20px;
+    flex:1;
+}
+.fsection .contact span{
+    display: block;
+    font-size: 16px;
+}
+.fsection h2{
+    padding: 5px;
+}
+.fsection ul li a{
+    display: block;
+    margin-left: 10px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    width: 100px;
+}
+.fsection ul li a:hover{
+    color: white;
+    margin-left:15px;
+    transition: all 0.5s ease;
+}
+.fsection input, textarea{
+    background: rgba(31, 21, 21, 0.555);
+    margin-bottom: 2px;
+    border: none;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 8px;
+    color: white;
+}
+.fsection button{
+    border: none;
+    padding: 6px 22px;
+    text-decoration: none;
+    font-size: 18px; 
+    background-color:#ff9900;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+.fsection button:hover{
+    background-color:#553607a6;
+    transition: all 0.5s ease;
+}
+.footer-bottom{
+    text-align: center;
+
+}
