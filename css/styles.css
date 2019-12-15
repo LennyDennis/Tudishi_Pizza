@@ -72,3 +72,62 @@ a,button{
     transform: scaleX(1);
     transform-origin: right;
 }
+.welcome{
+    background: linear-gradient(#5c18039c, #2e1c01d2) ,url(../images/bg4.jpeg) no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    width: 800px;
+    margin: 6% 25%;
+    text-align: center;
+}
+.content h1{
+    color: beige;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 70px;
+}
+.content p{
+    color: beige;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.content a{
+    border: none;
+    padding: 6px 22px;
+    text-decoration: none;
+    font-size: 18px; 
+    background-color:#ff9900;
+    border-radius: 50px;
+    display: inline-block;
+}
+.content a:hover{
+    background-color: #ff9900be;
+    color:white;
+}
+.bottom{
+    height: 100vh;
+}
+.slides{
+    height: 60vh;
+}
+.pizza img{
+    width: 600px;
+    height: 60vh;
+    border-top-right-radius: 15% 50%;
+    border-bottom-right-radius: 15% 50%;
+}
+.side{
+    padding: 50px 50px 0px 0px;
+}
+.side h1,h2{
+    font-family: 'Didact Gothic', sans-serif;
+}
+.side h2{
+    font-size: 22px;
+}
+.side p{
+    font-family: 'Didact Gothic', sans-serif;
+}
