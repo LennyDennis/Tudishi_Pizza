@@ -64,3 +64,44 @@
                             <input type="submit" value="Order" class="button" id="addcart">
                             <input type="button" class="refresh button" value="Refresh">
                         </form>
+                    </div>
+                </div>
+                <div class="col-md-5 cart">
+                    <div class="card">
+                        <h5 class="card-header">Your Cart</h5>
+                        <div class="card-body">
+                            <div id="cart">
+                                <table class="table" id="tablecart">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Pizza size</th>
+                                            <th scope="col">Quantity</th>
+                                            <th scope="col">Unit Pirce</th>
+                                            <th scope="col">Sub Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="delivery">
+                                <div class="delivery-info">
+                                    <p id="totalcost">The total is: <span></span></p>
+                                    <p id="delivercost">Would you like a delivery at 300?</p>
+                                    <p id="no">Pick your order at your nearest store</p>
+                                    <p id="yes">Your order will be delivered at: <span></span></p>
+                                    <div class="address">
+                                        <input type="text" placeholder="Your address....." class="input address" />
+                                        <input type="submit" value="Enter" class="button" id="addaddress">
+                                    </div>
+                                </div>
+                                <input type="submit" value="Yes" class="yes-button button">
+                                <input type="submit" value="No" class="no-button button">
+                            </div>
+                            <input type="submit" value="Checkout" class="checkout button" id="checkout">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
