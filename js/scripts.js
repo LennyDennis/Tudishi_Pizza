@@ -17,6 +17,7 @@ $(document).ready(function(){
                                  '<option value="200">Extra Cheese</option>'+
                              '</select>');
     });
+
     $('#addcart').click(function(event){
       event.preventDefault();
       var size = parseInt($('#size option:selected').val());
@@ -81,13 +82,6 @@ $(document).ready(function(){
     $(".address").hide();
     $("#yes span").html(address);
   });
-  $(".refresh").click(function(event){
-    $('form').each(function(){
-      this.reset();
-      $(".delivery").hide();
-      $("#tablecart tbody tr").remove(); 
 
-    });
-  });
   });
 });
