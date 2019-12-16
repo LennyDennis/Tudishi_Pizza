@@ -41,3 +41,60 @@
       padding: 40px 0;
       background: rgba(10, 180, 180, 0.1);
   }
+  .input {
+      margin: 8px ;
+      margin-left: 40px;
+      font-size: 16px;
+      padding: 5px;
+      width: 300px;
+      border: none;
+      border-bottom: 1px solid #ff9900;
+      background: rgba(20, 20, 20, .4);
+      color: white;
+      outline: none;
+    }
+    .input::-webkit-input-placeholder{
+        color: white;
+        padding-left: 6px;
+    }
+  .button{
+      border: none;
+      padding: 6px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      font-size: 16px; 
+      background-color: #ff9900;
+      border-radius: 50px;
+      transition: all 0.5s ease;
+  }
+  .button:hover{
+      background-color: #553607a6;
+      transition: all 0.5s ease;
+  
+  }
+  .cart{
+      margin:22px 0px 0px 80px;
+  }
+  table{
+	width: 95%;
+	opacity: 0.9;
+    font-weight: 800;
+    border: none;
+}
+td,th{
+	text-align: center;
+	color: black;
+    border: none;
+}
+th{
+	background-color: #ff9900;
+}
+tr:nth-child(even){
+	background-color: #e28d0cbb;
+}
+tr:nth-child(odd){
+	background-color:  #a76d1783;
+}
+#addtopping{
+    margin-right: 0px;
+}
