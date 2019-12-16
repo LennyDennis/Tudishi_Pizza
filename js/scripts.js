@@ -59,15 +59,7 @@ $(document).ready(function(){
         grandTotal = grandTotal + total;
         $("p span").html(grandTotal);
       });   
-      $(".yes-button").click(function() {
-      $("#delivercost").hide();
-      $("#no").hide();
-      $("#yes").hide();
-      $(".address").show();
-      $(".yes-button").hide();
-      $(".no-button").hide();
-      $("#totalcost span").html(grandTotal + 300);
-    });
+
       $(".no-button").click(function() {
       $("#delivercost").hide();
       $("#yes").hide();
