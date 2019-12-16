@@ -188,5 +188,7 @@ a,button{
 }
 .footer-bottom{
     text-align: center;
-
+}	
+#addcart{
+    margin: 0px 20px 0px 20px;
 }
