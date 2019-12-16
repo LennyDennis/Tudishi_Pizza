@@ -82,6 +82,13 @@ $(document).ready(function(){
     $(".address").hide();
     $("#yes span").html(address);
   });
+  $(".refresh").click(function(event){
+    $('form').each(function(){
+      this.reset();
+      $(".delivery").hide();
+      $("#tablecart tbody tr").remove(); 
 
+    });
+  });
   });
 });
